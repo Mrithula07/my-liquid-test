@@ -1,0 +1,19 @@
+<div id="greeting-message" style="font-size: 1.5rem; font-weight: bold;"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const now = new Date();
+    const hour = now.getHours();
+    let greeting;
+
+    if (hour < 12) {
+      greeting = "Good Morning, Shopper!";
+    } else if (hour < 18) {
+      greeting = "Good Afternoon, Shopper!";
+    } else {
+      greeting = "Good Evening, Shopper!";
+    }
+
+    document.getElementById("greeting-message").textContent = greeting;
+  });
+</script>
