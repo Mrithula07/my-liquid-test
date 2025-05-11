@@ -48,3 +48,14 @@ This project includes several modifications to Shopify Liquid files to implement
 - `personalized-greeting.liquid`
 
 This README outlines the logic and modifications made to the Shopify Liquid files to implement the requested features.
+
+---
+
+## Preview Link:
+Here is the preview of the modified Shopify store:
+[Preview Link - My Liquid Test Store](https://my-liquid-test.myshopify.com/)
+
+**Password:** `yawfow`
+
+Please note that this link is a preview of the changes and can be accessed multiple times before the theme is published. The password is required for access.
+
